@@ -5,4 +5,7 @@ Docker linux installation scripts
 Debian distributions
 
 ### Jessie
+```
 wget https://github.com/markhilton/linux-docker-install/blob/master/debian-jessie.sh
+/bin/bash debian-jessie.sh
+```

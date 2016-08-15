@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# update docker sources
 echo "deb https://apt.dockerproject.org/repo debian-jessie main" > /etc/apt/sources.list.d/docker.list
 apt-get purge "lxc-docker*"
 apt-get purge "docker.io*"
