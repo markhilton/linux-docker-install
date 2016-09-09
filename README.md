@@ -6,6 +6,5 @@ Debian distributions
 
 ### Jessie
 ```
-wget https://raw.githubusercontent.com/markhilton/linux-docker-install/master/debian-jessie.sh
-/bin/bash debian-jessie.sh
+wget -O - https://raw.githubusercontent.com/markhilton/linux-docker-install/master/debian-jessie.sh | bash
 ```
